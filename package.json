@@ -1,8 +1,8 @@
 {
-  "name": "buoy-theme",
-  "displayName": "Buoy Theme",
-  "description": "Colors",
-  "version": "0.0.1",
+  "name": "theme-stoked",
+  "version": "1.0.0",
+  "displayName": "Stoked",
+  "description": "A simple dark theme inspired by Dracula and Atom One Dark.",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -12,18 +12,21 @@
   "contributes": {
     "themes": [
       {
-        "label": "Buoy Theme",
+        "label": "Stoked",
         "uiTheme": "vs-dark",
-        "path": "./themes/buoy-generated-theme.json"
+        "path": "./themes/stoked.json"
       }
     ]
   },
   "scripts": {
-    "dev": "nodemon -r esm --ignore themes ./build.js"
+    "dev": "nodemon -r esm --ignore themes ./scripts/build-vscode.js"
   },
   "devDependencies": {
     "color": "^4.2.3",
     "esm": "^3.2.25",
+    "flat": "^5.0.2",
+    "jsonc": "^2.0.0",
+    "lodash": "^4.17.21",
     "nodemon": "^2.0.20"
   }
 }

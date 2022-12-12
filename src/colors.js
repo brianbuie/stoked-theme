@@ -1,14 +1,18 @@
 import Color from 'color';
 
-export const background = Color('#282c34');
-export const foreground = Color('#a4afb6');
+// Base Pallette
 export const red = Color('#E06C75');
-export const yellow = Color('#d6b67a');
-export const green = Color('#79b973');
-export const cyan = Color('#56B6C2');
+export const yellow = Color('#cfcf79');
+export const orange = Color('#dca56a');
+export const green = Color('#6ec988');
 export const blue = Color('#61AFEF');
-export const magenta = Color('#C678DD');
+export const cyan = Color('#7dd5e9');
+export const purple = Color('#c07cd4');
+export const pink = Color('#f886c7');
+export const bg = Color('#282c34');
+export const fg = Color('#d0d6de');
 
-export const none = Color('black').fade(1).hexa();
-
-export const comment = foreground.mix(blue, 0.3).fade(0.45);
+// Common across workbench and tokens
+export const primary = pink;
+export const secondary = blue;
+export const comment = bg.lighten(1.5).saturate(0.8);

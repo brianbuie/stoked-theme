@@ -1,4 +1,4 @@
-# Buoy Theme README
+# Stoked Theme README
 
 ## Working with Markdown
 
