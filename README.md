@@ -1,16 +1,37 @@
-# Stoked Theme README
+# Stoked! 🤙
 
-## Working with Markdown
+### So far
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+- [VS Code](https://code.visualstudio.com/)
 
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+  - TODO: Add to Marketplace
 
-## For more information
+- [Warp](https://www.warp.dev/)
 
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Build
 
-**Enjoy!**
+```sh
+pnpm run build [--everywhere]
+```
+
+Builds to `./themes/stoked-vscode.json` and `./themes/stoked-warp.yaml`
+
+`--everywhere` flag will also build to `~/.warp/themes/stoked-warp.yaml` for [warp](https://docs.warp.dev/appearance/themes)
+
+## Development
+
+Use VS Code's debugger to launch a new window that will auto-update on changes
+
+```sh
+pnpm run watch [--everywhere]
+```
+
+Re-build the theme json file when source files change
+
+## Packaging
+
+```sh
+vsce package
+```
+
+create vsix file to install. Right click file from explorer and choose 'Install Extension VSIX'

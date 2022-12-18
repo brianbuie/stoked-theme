@@ -1,8 +1,9 @@
 {
-  "name": "theme-stoked",
-  "version": "1.0.0",
-  "displayName": "Stoked",
+  "name": "stoked",
+  "displayName": "Stoked! 🤙",
   "description": "A different take on the same theme. So stoked!",
+  "version": "1.0.0",
+  "publisher": "Brian Buie",
   "repository": {
     "type": "git",
     "url": "https://github.com/brianbuie/stoked-theme.git"
@@ -10,23 +11,34 @@
   "engines": {
     "vscode": "^1.73.0"
   },
+  "type": "module",
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "stoked",
+    "theme",
+    "color-theme",
+    "dark",
+    "pink"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Stoked",
+        "label": "Stoked! 🤙",
         "uiTheme": "vs-dark",
-        "path": "./themes/stoked.json"
+        "path": "./themes/stoked-vscode.json"
       }
     ]
   },
   "scripts": {
-    "watch": "nodemon --watch src --watch scripts ./scripts/build-vscode.js"
+    "watch": "nodemon -q -w src -w scripts scripts/build.js",
+    "build": "node scripts/build.js"
   },
   "devDependencies": {
     "color": "^4.2.3",
-    "nodemon": "^2.0.20"
+    "flat": "^5.0.2",
+    "nodemon": "^2.0.20",
+    "yaml": "^2.1.3"
   }
 }
