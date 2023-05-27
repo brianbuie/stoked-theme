@@ -1547,12 +1547,12 @@ const syntax = [
   },
 ];
 
-const { publisher, displayName } = JSON.parse(fs.readFileSync('package.json'));
+const { author, displayName } = JSON.parse(fs.readFileSync('package.json'));
 
 const theme = {
   $schema: 'vscode://schemas/color-theme',
   name: displayName,
-  author: publisher,
+  author: author.name,
   semanticHighlighting: true,
   semanticTokenColors: hexYeah(semantic),
   colors: flat(hexYeah(workbench)),

@@ -4,6 +4,10 @@
   "description": "Cool theme, brah",
   "version": "1.0.0",
   "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#262A31",
+    "theme": "dark"
+  },
   "author": {
     "name": "Brian Buie"
   },

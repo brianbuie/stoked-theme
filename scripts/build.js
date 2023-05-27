@@ -5,7 +5,8 @@ import vscode from '../src/vscode.js';
 import warp from '../src/warp.js';
 import css from '../src/css.js';
 
-const { name, displayName } = JSON.parse(fs.readFileSync('package.json'));
+const name = 'stoked';
+const displayName = 'Stoked! 🤙';
 
 const builds = {
   vscode: {

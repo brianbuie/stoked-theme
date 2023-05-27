@@ -6,11 +6,13 @@ Cool theme, brah
 
 Not a lot of colors, but they're good ones. Syntax highlighting is still a work in progress, since I'm just adding things as I go. Feel free to open an issue or a PR if you notice anything is off.
 
-### Destinations
+## Install
 
-- [VS Code](https://code.visualstudio.com/)
+- [VS Code](https://marketplace.visualstudio.com/items?itemName=brianbuie.stoked-theme)
 
-- [Warp](https://www.warp.dev/)
+### Other Builds
+
+- [Warp](https://docs.warp.dev/appearance/custom-themes)
 
 - CSS
 
@@ -22,7 +24,7 @@ pnpm run build [--everywhere]
 
 Builds to `./themes/stoked-vscode.json` and `./themes/stoked-warp.yaml`
 
-`--everywhere` flag will also build to `~/.warp/themes/stoked-warp.yaml` for [warp](https://docs.warp.dev/appearance/themes)
+`--everywhere` flag will also build to `~/.warp/themes/stoked-warp.yaml` for [warp](https://docs.warp.dev/appearance/custom-themes)
 
 ## Development
 
