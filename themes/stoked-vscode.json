@@ -273,7 +273,8 @@
         "entity.name.function.method",
         "entity.name.function",
         "entity.name.fragment.graphql",
-        "variable.fragment.graphql"
+        "variable.fragment.graphql",
+        "support.function"
       ],
       "settings": {
         "foreground": "#5A9ED7"

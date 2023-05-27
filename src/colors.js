@@ -21,13 +21,13 @@ export const highlight = primary.fade(0.95);
 export const none = bg.fade(1);
 export const ansi = {
   normal: {
-    black: black,
-    red: red,
-    green: green,
-    yellow: yellow,
-    blue: blue,
+    black,
+    red,
+    green,
+    yellow,
+    blue,
     magenta: pink,
-    cyan: cyan,
+    cyan,
     white: fg,
   },
   bright: {
@@ -40,6 +40,21 @@ export const ansi = {
     cyan: cyan.lighten(0.3),
     white: fg.lighten(0.3),
   },
+};
+
+export const palette = {
+  red,
+  yellow,
+  orange,
+  green,
+  cyan,
+  blue,
+  purple,
+  pink,
+  bg,
+  fg,
+  comment,
+  highlight,
 };
 
 // Traverse tree and render colors to hex string

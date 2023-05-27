@@ -1033,38 +1033,38 @@ const brackets = fg;
 const cssConsts = orange;
 
 const semantic = {
-  namespace: i,
-  class: i,
+  'namespace': i,
+  'class': i,
   'class.defaultLibrary': builtIns,
-  enum: i,
-  interface: i,
-  struct: i,
-  typeParameter: i,
-  type: i,
-  parameter: {
+  'enum': i,
+  'interface': i,
+  'struct': i,
+  'typeParameter': i,
+  'type': i,
+  'parameter': {
     italic: true,
   },
-  variable: variables,
+  'variable': variables,
   'variable.defaultLibrary': builtIns,
   'variable.declaration': i,
-  property: i,
+  'property': i,
   'property.defaultLibrary': propRef,
   'property.declaration': propDef,
-  enumMember: i,
-  decorator: i,
-  event: i,
-  function: i,
+  'enumMember': i,
+  'decorator': i,
+  'event': i,
+  'function': i,
   'function.defaultLibrary': builtIns,
-  method: i,
+  'method': i,
   'method.defaultLibrary': builtIns,
-  macro: i,
-  label: i,
-  comment: i,
-  string: i,
-  keyword: i,
-  number: i,
-  regexp: i,
-  operator: i,
+  'macro': i,
+  'label': i,
+  'comment': i,
+  'string': i,
+  'keyword': i,
+  'number': i,
+  'regexp': i,
+  'operator': i,
 };
 
 const syntax = [
@@ -1195,6 +1195,7 @@ const syntax = [
       'entity.name.function',
       'entity.name.fragment.graphql',
       'variable.fragment.graphql',
+      'support.function',
     ],
     settings: {
       foreground: functions,
@@ -1218,12 +1219,7 @@ const syntax = [
   },
   {
     name: 'Classes',
-    scope: [
-      'entity.name.type.class',
-      'entity.name.class',
-      'entity.other.inherited-class',
-      'variable.language.this',
-    ],
+    scope: ['entity.name.type.class', 'entity.name.class', 'entity.other.inherited-class', 'variable.language.this'],
     settings: {
       foreground: classes,
     },
@@ -1400,7 +1396,6 @@ const syntax = [
       foreground: fg,
     },
   },
-
   /**
    * Markdown
    */

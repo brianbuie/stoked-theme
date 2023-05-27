@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import YAML from 'yaml';
 import vscode from '../src/vscode.js';
 import warp from '../src/warp.js';
+import css from '../src/css.js';
 
 const { name, displayName } = JSON.parse(fs.readFileSync('package.json'));
 
@@ -15,6 +16,10 @@ const builds = {
     filename: name + '-warp.yaml',
     contents: YAML.stringify(warp),
   },
+  css: {
+    filename: name + '-colors.css',
+    contents: css,
+  },
 };
 
 function save(dir, build) {
@@ -22,8 +27,7 @@ function save(dir, build) {
 }
 
 // project directory
-save('themes', builds.vscode);
-save('themes', builds.warp);
+Object.values(builds).forEach(build => save('themes', build));
 
 // Update Warp theme in home directory
 if (process.argv.includes('--everywhere')) {

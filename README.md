@@ -1,12 +1,18 @@
 # Stoked! 🤙
 
-### So far
+Cool theme, brah
+
+![Preview](https://raw.githubusercontent.com/brianbuie/stoked-theme/main/images/screenshot.png)
+
+Not a lot of colors, but they're good ones. Syntax highlighting is still a work in progress, since I'm just adding things as I go. Feel free to open an issue or a PR if you notice anything is off.
+
+### Destinations
 
 - [VS Code](https://code.visualstudio.com/)
 
-  - TODO: Add to Marketplace
-
 - [Warp](https://www.warp.dev/)
+
+- CSS
 
 ## Build
 
@@ -26,12 +32,4 @@ Use VS Code's debugger to launch a new window that will auto-update on changes
 pnpm run watch [--everywhere]
 ```
 
-Re-build the theme json file when source files change
-
-## Packaging
-
-```sh
-vsce package
-```
-
-create vsix file to install. Right click file from explorer and choose 'Install Extension VSIX'
+Re-builds the theme json file when source files change

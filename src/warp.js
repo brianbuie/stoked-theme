@@ -1,7 +1,7 @@
 import { primary, bg, fg, ansi, hexYeah } from './colors.js';
 
 const theme = hexYeah({
-  accent: primary,
+  accent: primary.mix(bg),
   background: bg,
   details: 'darker',
   foreground: fg,
