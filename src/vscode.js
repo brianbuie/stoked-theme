@@ -1397,6 +1397,39 @@ const syntax = [
     },
   },
   /**
+   * Logs
+   */
+  {
+    scope: ['log.error'],
+    settings: {
+      foreground: red,
+    },
+  },
+  {
+    scope: ['log.warning'],
+    settings: {
+      foreground: yellow,
+    },
+  },
+  {
+    scope: ['log.info'],
+    settings: {
+      foreground: cyan,
+    },
+  },
+  {
+    scope: ['log.debug'],
+    settings: {
+      foreground: comment,
+    },
+  },
+  {
+    scope: ['log.constant'],
+    settings: {
+      foreground: fg,
+    },
+  },
+  /**
    * Markdown
    */
   {

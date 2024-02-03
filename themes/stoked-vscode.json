@@ -464,6 +464,46 @@
     },
     {
       "scope": [
+        "log.error"
+      ],
+      "settings": {
+        "foreground": "#CD6F77"
+      }
+    },
+    {
+      "scope": [
+        "log.warning"
+      ],
+      "settings": {
+        "foreground": "#B7B767"
+      }
+    },
+    {
+      "scope": [
+        "log.info"
+      ],
+      "settings": {
+        "foreground": "#52BAB6"
+      }
+    },
+    {
+      "scope": [
+        "log.debug"
+      ],
+      "settings": {
+        "foreground": "#546685"
+      }
+    },
+    {
+      "scope": [
+        "log.constant"
+      ],
+      "settings": {
+        "foreground": "#B0ACBE"
+      }
+    },
+    {
+      "scope": [
         "emphasis",
         "markup.italic"
       ],
