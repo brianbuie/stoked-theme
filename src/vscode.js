@@ -1219,7 +1219,13 @@ const syntax = [
   },
   {
     name: 'Classes',
-    scope: ['entity.name.type.class', 'entity.name.class', 'entity.other.inherited-class', 'variable.language.this'],
+    scope: [
+      'entity.name.type.class',
+      'entity.name.class',
+      'entity.other.inherited-class',
+      'variable.language.this',
+      'entity.name.type.instance',
+    ],
     settings: {
       foreground: classes,
     },

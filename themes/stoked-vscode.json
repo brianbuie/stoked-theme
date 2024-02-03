@@ -301,7 +301,8 @@
         "entity.name.type.class",
         "entity.name.class",
         "entity.other.inherited-class",
-        "variable.language.this"
+        "variable.language.this",
+        "entity.name.type.instance"
       ],
       "settings": {
         "foreground": "#DFA465"
