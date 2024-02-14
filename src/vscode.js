@@ -1223,6 +1223,7 @@ const syntax = [
       'entity.name.type.class',
       'entity.name.class',
       'entity.other.inherited-class',
+      'variable.other.class',
       'variable.language.this',
       'entity.name.type.instance',
     ],
