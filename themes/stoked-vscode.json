@@ -409,7 +409,9 @@
         "comment",
         "punctuation.definition.comment",
         "unused.comment",
-        "wildcard.comment"
+        "wildcard.comment",
+        "storage.type.class.jsdoc",
+        "entity.name.type.instance.jsdoc"
       ],
       "settings": {
         "foreground": "#546685",

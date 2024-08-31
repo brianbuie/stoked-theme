@@ -1348,7 +1348,14 @@ const syntax = [
   // },
   {
     name: 'Comments',
-    scope: ['comment', 'punctuation.definition.comment', 'unused.comment', 'wildcard.comment'],
+    scope: [
+      'comment',
+      'punctuation.definition.comment',
+      'unused.comment',
+      'wildcard.comment',
+      'storage.type.class.jsdoc',
+      'entity.name.type.instance.jsdoc',
+    ],
     settings: {
       foreground: comment,
       fontStyle: 'italic',

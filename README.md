@@ -4,7 +4,9 @@ Cool theme, brah
 
 ![Preview](https://raw.githubusercontent.com/brianbuie/stoked-theme/main/images/screenshot.png)
 
-Not a lot of colors, but they're good ones. Syntax highlighting is still a work in progress, since I'm just adding things as I go. Feel free to open an issue or a PR if you notice anything is off.
+Uses colors sparingly, so they actually mean something!
+
+Feel free to open an issue or a PR if you notice anything that looks off, syntax highlighting is hard.
 
 ## Install
 
