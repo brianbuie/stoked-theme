@@ -13,7 +13,7 @@ export const black = Color('black');
 
 // Common
 export const bg = Color('#262a31');
-export const fg = Color('#ABB2BF').mix(pink, 0.1);
+export const white = Color('#ABB2BF').mix(pink, 0.1);
 export const comment = bg.lighten(1.5).saturate(0.8);
 export const primary = pink;
 export const secondary = blue;
@@ -28,7 +28,7 @@ export const ansi = {
     blue,
     magenta: pink,
     cyan,
-    white: fg,
+    white,
   },
   bright: {
     black: bg.darken(0.2),
@@ -38,7 +38,7 @@ export const ansi = {
     blue: blue.lighten(0.3),
     magenta: pink.lighten(0.3),
     cyan: cyan.lighten(0.3),
-    white: fg.lighten(0.3),
+    white: white.lighten(0.3),
   },
 };
 
@@ -52,7 +52,7 @@ export const palette = {
   purple,
   pink,
   bg,
-  fg,
+  white,
   comment,
   highlight,
 };

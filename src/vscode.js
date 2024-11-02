@@ -11,7 +11,7 @@ import {
   pink,
   black,
   bg,
-  fg,
+  white,
   comment,
   primary,
   secondary,
@@ -183,7 +183,7 @@ const workbench = {
     findRangeHighlightBorder: i,
     focusedStackFrameHighlightBackground: i,
     foldBackground: bg.darken(0.1),
-    foreground: fg,
+    foreground: white,
     hoverHighlightBackground: i,
     inactiveSelectionBackground: i,
     inlineValuesBackground: i,
@@ -195,7 +195,7 @@ const workbench = {
     rangeHighlightBorder: i,
     selectionBackground: primary.fade(0.65),
     selectionForeground: i,
-    selectionHighlightBackground: fg.fade(0.85),
+    selectionHighlightBackground: white.fade(0.85),
     selectionHighlightBorder: i,
     snippetFinalTabstopHighlightBackground: i,
     snippetFinalTabstopHighlightBorder: i,
@@ -254,7 +254,7 @@ const workbench = {
   },
   editorCursor: {
     background: i,
-    foreground: fg,
+    foreground: white,
   },
   editorError: {
     background: i,
@@ -296,7 +296,7 @@ const workbench = {
   editorHoverWidget: {
     background: bg.darken(0.2),
     border: none,
-    foreground: fg,
+    foreground: white,
     highlightForeground: i,
     statusBarBackground: i,
   },
@@ -408,7 +408,7 @@ const workbench = {
   editorWidget: {
     background: bg.darken(0.2),
     border: none,
-    foreground: fg,
+    foreground: white,
     resizeBorder: i,
   },
   errorForeground: red.desaturate(0.3),
@@ -446,12 +446,12 @@ const workbench = {
     untrackedResourceForeground: green,
   },
   icon: {
-    foreground: fg,
+    foreground: white,
   },
   input: {
     background: bg.darken(0.35),
     border: i,
-    foreground: fg,
+    foreground: white,
     placeholderForeground: i,
   },
   inputOption: {
@@ -487,8 +487,8 @@ const workbench = {
   },
   list: {
     activeSelectionBackground: highlight,
-    activeSelectionForeground: fg,
-    activeSelectionIconForeground: fg,
+    activeSelectionForeground: white,
+    activeSelectionIconForeground: white,
     deemphasizedForeground: comment,
     dropBackground: highlight.opaquer(0.4),
     errorForeground: red,
@@ -501,12 +501,12 @@ const workbench = {
     focusOutline: i,
     highlightForeground: primary,
     hoverBackground: highlight,
-    hoverForeground: fg,
+    hoverForeground: white,
     inactiveFocusBackground: highlight,
     inactiveFocusOutline: i,
     inactiveSelectionBackground: highlight,
-    inactiveSelectionForeground: fg,
-    inactiveSelectionIconForeground: fg,
+    inactiveSelectionForeground: white,
+    inactiveSelectionIconForeground: white,
     invalidItemForeground: i,
     warningForeground: yellow,
   },
@@ -680,7 +680,7 @@ const workbench = {
   },
   panelTitle: {
     activeBorder: primary,
-    activeForeground: fg,
+    activeForeground: white,
     inactiveForeground: comment,
   },
   peekView: {
@@ -793,15 +793,15 @@ const workbench = {
     background: bg.darken(0.2),
     border: black,
     dropBackground: i,
-    foreground: fg,
+    foreground: white,
   },
   sideBarSectionHeader: {
     background: bg.darken(0.2),
     border: black,
-    foreground: fg,
+    foreground: white,
   },
   sideBarTitle: {
-    foreground: fg,
+    foreground: white,
   },
   sideBySideEditor: {
     horizontalBorder: i,
@@ -814,7 +814,7 @@ const workbench = {
     debuggingBorder: i,
     debuggingForeground: i,
     focusBorder: i,
-    foreground: fg,
+    foreground: white,
     noFolderBackground: i,
     noFolderBorder: i,
     noFolderForeground: i,
@@ -873,26 +873,26 @@ const workbench = {
     activeBackground: bg,
     activeBorder: i,
     activeBorderTop: i,
-    activeForeground: fg,
+    activeForeground: white,
     activeModifiedBorder: i,
     border: i,
     hoverBackground: bg,
     hoverBorder: i,
     hoverForeground: i,
     inactiveBackground: bg.darken(0.2),
-    inactiveForeground: fg,
+    inactiveForeground: white,
     inactiveModifiedBorder: i,
     lastPinnedBorder: i,
     unfocusedActiveBackground: i,
     unfocusedActiveBorder: i,
     unfocusedActiveBorderTop: i,
-    unfocusedActiveForeground: fg,
+    unfocusedActiveForeground: white,
     unfocusedActiveModifiedBorder: i,
     unfocusedHoverBackground: bg,
     unfocusedHoverBorder: i,
     unfocusedHoverForeground: i,
     unfocusedInactiveBackground: bg.darken(0.2),
-    unfocusedInactiveForeground: fg,
+    unfocusedInactiveForeground: white,
     unfocusedInactiveModifiedBorder: i,
   },
   terminal: {
@@ -919,7 +919,7 @@ const workbench = {
     findMatchBorder: i,
     findMatchHighlightBackground: i,
     findMatchHighlightBorder: i,
-    foreground: fg,
+    foreground: white,
     inactiveSelectionBackground: i,
     selectionBackground: primary.fade(0.65),
     selectionForeground: i,
@@ -980,10 +980,10 @@ const workbench = {
   },
   titleBar: {
     activeBackground: bg.darken(0.2),
-    activeForeground: fg,
+    activeForeground: white,
     border: black,
     inactiveBackground: bg.darken(0.2),
-    inactiveForeground: fg,
+    inactiveForeground: white,
   },
   toolbar: {
     activeBackground: i,
@@ -1022,14 +1022,14 @@ const keywords = purple;
 const functions = blue;
 const classes = orange;
 const builtIns = cyan;
-const propRef = fg;
+const propRef = white;
 const propDef = pink;
-const variables = fg;
-const values = yellow;
-const params = fg;
+const variables = white;
+const primitives = yellow;
+const params = white;
 const tags = green;
 const separators = purple;
-const brackets = fg;
+const brackets = white;
 const cssConsts = orange;
 
 const semantic = {
@@ -1155,6 +1155,8 @@ const syntax = [
       'variable.other.object',
       'meta.selectionset.graphql variable',
       'meta.function-call variable.other.readwrite',
+      'constant.other.database-name.sql',
+      'constant.other.table-name.sql',
     ],
     settings: {
       foreground: variables,
@@ -1202,7 +1204,7 @@ const syntax = [
     },
   },
   {
-    name: 'Values (strings, numbers, boolean, null)',
+    name: 'Primitives (strings, numbers, boolean, null)',
     scope: [
       'constant',
       'string.quoted',
@@ -1214,7 +1216,7 @@ const syntax = [
       'keyword.other.unit',
     ],
     settings: {
-      foreground: values,
+      foreground: primitives,
     },
   },
   {
@@ -1253,8 +1255,11 @@ const syntax = [
       'entity.name.tag.html',
       'entity.name.tag.css',
       'entity.name.tag.reference.scss',
+      'entity.name.tag.tsx',
       'entity.name.tag.open.jsx',
+      'entity.name.tag.open.tsx',
       'entity.name.tag.close.jsx',
+      'entity.name.tag.close.tsx',
       'support.class.component.open',
       'support.class.component.close',
       'punctuation.definition.tag',
@@ -1407,7 +1412,7 @@ const syntax = [
       'constant.language.empty-list.haskell',
     ],
     settings: {
-      foreground: fg,
+      foreground: white,
     },
   },
   /**
@@ -1440,7 +1445,7 @@ const syntax = [
   {
     scope: ['log.constant'],
     settings: {
-      foreground: fg,
+      foreground: white,
     },
   },
   /**
@@ -1589,7 +1594,7 @@ const syntax = [
       'meta.paragraph.markdown punctuation.definition.string.end',
     ],
     settings: {
-      foreground: fg,
+      foreground: white,
     },
   },
 ];

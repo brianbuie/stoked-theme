@@ -235,7 +235,9 @@
         "constant.other.key.perl",
         "variable.other.object",
         "meta.selectionset.graphql variable",
-        "meta.function-call variable.other.readwrite"
+        "meta.function-call variable.other.readwrite",
+        "constant.other.database-name.sql",
+        "constant.other.table-name.sql"
       ],
       "settings": {
         "foreground": "#B0ACBE"
@@ -281,7 +283,7 @@
       }
     },
     {
-      "name": "Values (strings, numbers, boolean, null)",
+      "name": "Primitives (strings, numbers, boolean, null)",
       "scope": [
         "constant",
         "string.quoted",
@@ -331,8 +333,11 @@
         "entity.name.tag.html",
         "entity.name.tag.css",
         "entity.name.tag.reference.scss",
+        "entity.name.tag.tsx",
         "entity.name.tag.open.jsx",
+        "entity.name.tag.open.tsx",
         "entity.name.tag.close.jsx",
+        "entity.name.tag.close.tsx",
         "support.class.component.open",
         "support.class.component.close",
         "punctuation.definition.tag",
