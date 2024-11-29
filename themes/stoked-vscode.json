@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Stoked! 🤙",
+  "name": "Drab Neon",
   "author": "Brian Buie",
   "semanticHighlighting": true,
   "semanticTokenColors": {
