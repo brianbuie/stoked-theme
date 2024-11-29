@@ -1,8 +1,8 @@
 {
-  "name": "stoked-theme",
-  "displayName": "Stoked! 🤙",
-  "description": "Cool theme, brah",
-  "version": "1.5.0",
+  "name": "drab-neon-theme",
+  "displayName": "Drab Neon",
+  "description": "It's neat.",
+  "version": "2.0.0",
   "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#262A31",
