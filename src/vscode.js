@@ -684,21 +684,21 @@ const workbench = {
     inactiveForeground: comment,
   },
   peekView: {
-    border: i,
+    border: purple,
   },
   peekViewEditor: {
-    background: i,
-    matchHighlightBackground: i,
+    background: bg.darken(0.4).mix(purple, 0.05),
+    matchHighlightBackground: primary.fade(0.6),
     matchHighlightBorder: i,
   },
   peekViewEditorGutter: {
     background: i,
   },
   peekViewResult: {
-    background: i,
+    background: bg.darken(0.5).mix(purple, 0.05),
     fileForeground: i,
-    lineForeground: i,
-    matchHighlightBackground: i,
+    lineForeground: comment,
+    matchHighlightBackground: primary.fade(0.6),
     selectionBackground: i,
     selectionForeground: i,
   },
@@ -706,7 +706,7 @@ const workbench = {
     background: i,
   },
   peekViewTitleDescription: {
-    foreground: i,
+    foreground: comment,
   },
   peekViewTitleLabel: {
     foreground: i,
